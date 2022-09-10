@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0101940328C8D58800E1C4F4 /* examples in Resources */ = {isa = PBXBuildFile; fileRef = 010193AD28C8D58400E1C4F4 /* examples */; };
+		0101940428C8D58800E1C4F4 /* third_party in Resources */ = {isa = PBXBuildFile; fileRef = 010193B228C8D58400E1C4F4 /* third_party */; };
+		0101940528C8D58800E1C4F4 /* signature in Resources */ = {isa = PBXBuildFile; fileRef = 010193B528C8D58500E1C4F4 /* signature */; };
+		0101940628C8D58800E1C4F4 /* monitoring in Resources */ = {isa = PBXBuildFile; fileRef = 010193BD28C8D58500E1C4F4 /* monitoring */; };
+		0101940728C8D58800E1C4F4 /* integration in Resources */ = {isa = PBXBuildFile; fileRef = 010193BE28C8D58500E1C4F4 /* integration */; };
+		0101940828C8D58800E1C4F4 /* prf in Resources */ = {isa = PBXBuildFile; fileRef = 010193C128C8D58500E1C4F4 /* prf */; };
+		0101940928C8D58800E1C4F4 /* core in Resources */ = {isa = PBXBuildFile; fileRef = 010193C428C8D58500E1C4F4 /* core */; };
+		0101940A28C8D58800E1C4F4 /* daead in Resources */ = {isa = PBXBuildFile; fileRef = 010193C528C8D58500E1C4F4 /* daead */; };
+		0101940B28C8D58800E1C4F4 /* version_script.lds in Resources */ = {isa = PBXBuildFile; fileRef = 010193C628C8D58500E1C4F4 /* version_script.lds */; };
+		0101940C28C8D58800E1C4F4 /* internal in Resources */ = {isa = PBXBuildFile; fileRef = 010193CE28C8D58600E1C4F4 /* internal */; };
+		0101940D28C8D58800E1C4F4 /* mac in Resources */ = {isa = PBXBuildFile; fileRef = 010193D428C8D58600E1C4F4 /* mac */; };
+		0101940E28C8D58800E1C4F4 /* config in Resources */ = {isa = PBXBuildFile; fileRef = 010193D628C8D58600E1C4F4 /* config */; };
+		0101940F28C8D58800E1C4F4 /* experimental in Resources */ = {isa = PBXBuildFile; fileRef = 010193D828C8D58600E1C4F4 /* experimental */; };
+		0101941028C8D58800E1C4F4 /* subtle in Resources */ = {isa = PBXBuildFile; fileRef = 010193E428C8D58700E1C4F4 /* subtle */; };
+		0101941128C8D58800E1C4F4 /* util in Resources */ = {isa = PBXBuildFile; fileRef = 010193E528C8D58700E1C4F4 /* util */; };
+		0101941228C8D58800E1C4F4 /* version.h.templ in Resources */ = {isa = PBXBuildFile; fileRef = 010193E628C8D58700E1C4F4 /* version.h.templ */; };
+		0101941328C8D58800E1C4F4 /* tink_cc_deps.bzl in Resources */ = {isa = PBXBuildFile; fileRef = 010193E728C8D58700E1C4F4 /* tink_cc_deps.bzl */; };
+		0101941428C8D58800E1C4F4 /* WORKSPACE in Resources */ = {isa = PBXBuildFile; fileRef = 010193E928C8D58700E1C4F4 /* WORKSPACE */; };
+		0101941528C8D58800E1C4F4 /* tink_version.bzl in Resources */ = {isa = PBXBuildFile; fileRef = 010193EA28C8D58700E1C4F4 /* tink_version.bzl */; };
+		0101941628C8D58800E1C4F4 /* exported_symbols.lds in Resources */ = {isa = PBXBuildFile; fileRef = 010193EE28C8D58700E1C4F4 /* exported_symbols.lds */; };
+		0101941728C8D58800E1C4F4 /* template_rule.bzl in Resources */ = {isa = PBXBuildFile; fileRef = 010193F428C8D58700E1C4F4 /* template_rule.bzl */; };
+		0101941828C8D58800E1C4F4 /* BUILD.bazel in Resources */ = {isa = PBXBuildFile; fileRef = 010193F728C8D58700E1C4F4 /* BUILD.bazel */; };
+		0101941928C8D58800E1C4F4 /* aead in Resources */ = {isa = PBXBuildFile; fileRef = 010193F828C8D58800E1C4F4 /* aead */; };
+		0101941A28C8D58800E1C4F4 /* hybrid in Resources */ = {isa = PBXBuildFile; fileRef = 010193F928C8D58800E1C4F4 /* hybrid */; };
+		0101941B28C8D58800E1C4F4 /* jwt in Resources */ = {isa = PBXBuildFile; fileRef = 010193FA28C8D58800E1C4F4 /* jwt */; };
+		0101941C28C8D58800E1C4F4 /* tink_cc_deps_init.bzl in Resources */ = {isa = PBXBuildFile; fileRef = 010193FB28C8D58800E1C4F4 /* tink_cc_deps_init.bzl */; };
+		0101941D28C8D58800E1C4F4 /* proto in Resources */ = {isa = PBXBuildFile; fileRef = 0101940028C8D58800E1C4F4 /* proto */; };
+		0101941E28C8D58800E1C4F4 /* streamingaead in Resources */ = {isa = PBXBuildFile; fileRef = 0101940128C8D58800E1C4F4 /* streamingaead */; };
+		0101941F28C8D58800E1C4F4 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0101940228C8D58800E1C4F4 /* CMakeLists.txt */; };
+		0165EFA728C718EB0095A563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165EFA628C718EB0095A563 /* AppDelegate.swift */; };
+		0165EFA928C718EB0095A563 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165EFA828C718EB0095A563 /* SceneDelegate.swift */; };
+		0165EFAB28C718EB0095A563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165EFAA28C718EB0095A563 /* ViewController.swift */; };
+		0165EFAE28C718EB0095A563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0165EFAC28C718EB0095A563 /* Main.storyboard */; };
+		0165EFB028C718ED0095A563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0165EFAF28C718ED0095A563 /* Assets.xcassets */; };
+		0165EFB328C718ED0095A563 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0165EFB128C718ED0095A563 /* LaunchScreen.storyboard */; };
+		0165EFD428C723340095A563 /* TestWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0165EFD028C723330095A563 /* TestWrapper.mm */; };
+		0165EFD528C723340095A563 /* TestClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0165EFD328C723340095A563 /* TestClass.cpp */; };
+		185A8C17E04C2808B68C2D01 /* Pods_Tink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A69E6C4B6DF975A82E92CB /* Pods_Tink.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010193AC28C8D58400E1C4F4 /* secret_key_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secret_key_access.h; sourceTree = "<group>"; };
+		010193AD28C8D58400E1C4F4 /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		010193AE28C8D58400E1C4F4 /* keyset_writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyset_writer.h; sourceTree = "<group>"; };
+		010193AF28C8D58400E1C4F4 /* hybrid_encrypt_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybrid_encrypt_factory.h; sourceTree = "<group>"; };
+		010193B028C8D58400E1C4F4 /* signature_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signature_config.h; sourceTree = "<group>"; };
+		010193B128C8D58400E1C4F4 /* streaming_aead_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streaming_aead_config.h; sourceTree = "<group>"; };
+		010193B228C8D58400E1C4F4 /* third_party */ = {isa = PBXFileReference; lastKnownFileType = folder; path = third_party; sourceTree = "<group>"; };
+		010193B328C8D58500E1C4F4 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		010193B428C8D58500E1C4F4 /* primitive_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = primitive_wrapper.h; sourceTree = "<group>"; };
+		010193B528C8D58500E1C4F4 /* signature */ = {isa = PBXFileReference; lastKnownFileType = folder; path = signature; sourceTree = "<group>"; };
+		010193B628C8D58500E1C4F4 /* binary_keyset_writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binary_keyset_writer.h; sourceTree = "<group>"; };
+		010193B728C8D58500E1C4F4 /* json_keyset_writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_keyset_writer.h; sourceTree = "<group>"; };
+		010193B828C8D58500E1C4F4 /* aead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aead.h; sourceTree = "<group>"; };
+		010193B928C8D58500E1C4F4 /* key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		010193BA28C8D58500E1C4F4 /* aead_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aead_config.h; sourceTree = "<group>"; };
+		010193BB28C8D58500E1C4F4 /* public_key_sign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public_key_sign.h; sourceTree = "<group>"; };
+		010193BC28C8D58500E1C4F4 /* keyset_handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyset_handle.h; sourceTree = "<group>"; };
+		010193BD28C8D58500E1C4F4 /* monitoring */ = {isa = PBXFileReference; lastKnownFileType = folder; path = monitoring; sourceTree = "<group>"; };
+		010193BE28C8D58500E1C4F4 /* integration */ = {isa = PBXFileReference; lastKnownFileType = folder; path = integration; sourceTree = "<group>"; };
+		010193BF28C8D58500E1C4F4 /* crypto_format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_format.h; sourceTree = "<group>"; };
+		010193C028C8D58500E1C4F4 /* secret_key_access_token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secret_key_access_token.h; sourceTree = "<group>"; };
+		010193C128C8D58500E1C4F4 /* prf */ = {isa = PBXFileReference; lastKnownFileType = folder; path = prf; sourceTree = "<group>"; };
+		010193C228C8D58500E1C4F4 /* deterministic_aead_key_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deterministic_aead_key_templates.h; sourceTree = "<group>"; };
+		010193C328C8D58500E1C4F4 /* key_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key_manager.h; sourceTree = "<group>"; };
+		010193C428C8D58500E1C4F4 /* core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = core; sourceTree = "<group>"; };
+		010193C528C8D58500E1C4F4 /* daead */ = {isa = PBXFileReference; lastKnownFileType = folder; path = daead; sourceTree = "<group>"; };
+		010193C628C8D58500E1C4F4 /* version_script.lds */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version_script.lds; sourceTree = "<group>"; };
+		010193C728C8D58500E1C4F4 /* keyset_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyset_reader.h; sourceTree = "<group>"; };
+		010193C828C8D58500E1C4F4 /* output_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output_stream.h; sourceTree = "<group>"; };
+		010193C928C8D58500E1C4F4 /* tink_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tink_config.h; sourceTree = "<group>"; };
+		010193CA28C8D58500E1C4F4 /* aead_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aead_factory.h; sourceTree = "<group>"; };
+		010193CB28C8D58600E1C4F4 /* cleartext_keyset_handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cleartext_keyset_handle.h; sourceTree = "<group>"; };
+		010193CC28C8D58600E1C4F4 /* random_access_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_access_stream.h; sourceTree = "<group>"; };
+		010193CD28C8D58600E1C4F4 /* streaming_aead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streaming_aead.h; sourceTree = "<group>"; };
+		010193CE28C8D58600E1C4F4 /* internal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = internal; sourceTree = "<group>"; };
+		010193CF28C8D58600E1C4F4 /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; };
+		010193D028C8D58600E1C4F4 /* json_keyset_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_keyset_reader.h; sourceTree = "<group>"; };
+		010193D128C8D58600E1C4F4 /* mac_key_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mac_key_templates.h; sourceTree = "<group>"; };
+		010193D228C8D58600E1C4F4 /* deterministic_aead_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deterministic_aead_factory.h; sourceTree = "<group>"; };
+		010193D328C8D58600E1C4F4 /* key_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = key_access.h; sourceTree = "<group>"; };
+		010193D428C8D58600E1C4F4 /* mac */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mac; sourceTree = "<group>"; };
+		010193D528C8D58600E1C4F4 /* deterministic_aead_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deterministic_aead_config.h; sourceTree = "<group>"; };
+		010193D628C8D58600E1C4F4 /* config */ = {isa = PBXFileReference; lastKnownFileType = folder; path = config; sourceTree = "<group>"; };
+		010193D728C8D58600E1C4F4 /* chunked_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chunked_mac.h; sourceTree = "<group>"; };
+		010193D828C8D58600E1C4F4 /* experimental */ = {isa = PBXFileReference; lastKnownFileType = folder; path = experimental; sourceTree = "<group>"; };
+		010193D928C8D58600E1C4F4 /* hybrid_key_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybrid_key_templates.h; sourceTree = "<group>"; };
+		010193DA28C8D58600E1C4F4 /* insecure_secret_key_access.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insecure_secret_key_access.h; sourceTree = "<group>"; };
+		010193DB28C8D58600E1C4F4 /* public_key_verify_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public_key_verify_factory.h; sourceTree = "<group>"; };
+		010193DC28C8D58600E1C4F4 /* streaming_aead_key_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streaming_aead_key_templates.h; sourceTree = "<group>"; };
+		010193DD28C8D58600E1C4F4 /* kms_clients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kms_clients.h; sourceTree = "<group>"; };
+		010193DE28C8D58600E1C4F4 /* primitive_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = primitive_set.h; sourceTree = "<group>"; };
+		010193DF28C8D58600E1C4F4 /* hybrid_decrypt_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybrid_decrypt_factory.h; sourceTree = "<group>"; };
+		010193E028C8D58700E1C4F4 /* streaming_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = streaming_mac.h; sourceTree = "<group>"; };
+		010193E128C8D58700E1C4F4 /* hybrid_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybrid_config.h; sourceTree = "<group>"; };
+		010193E228C8D58700E1C4F4 /* kms_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kms_client.h; sourceTree = "<group>"; };
+		010193E328C8D58700E1C4F4 /* binary_keyset_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binary_keyset_reader.h; sourceTree = "<group>"; };
+		010193E428C8D58700E1C4F4 /* subtle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = subtle; sourceTree = "<group>"; };
+		010193E528C8D58700E1C4F4 /* util */ = {isa = PBXFileReference; lastKnownFileType = folder; path = util; sourceTree = "<group>"; };
+		010193E628C8D58700E1C4F4 /* version.h.templ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.h.templ; sourceTree = "<group>"; };
+		010193E728C8D58700E1C4F4 /* tink_cc_deps.bzl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tink_cc_deps.bzl; sourceTree = "<group>"; };
+		010193E828C8D58700E1C4F4 /* public_key_verify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public_key_verify.h; sourceTree = "<group>"; };
+		010193E928C8D58700E1C4F4 /* WORKSPACE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WORKSPACE; sourceTree = "<group>"; };
+		010193EA28C8D58700E1C4F4 /* tink_version.bzl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tink_version.bzl; sourceTree = "<group>"; };
+		010193EB28C8D58700E1C4F4 /* keyset_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyset_manager.h; sourceTree = "<group>"; };
+		010193EC28C8D58700E1C4F4 /* mac_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mac_factory.h; sourceTree = "<group>"; };
+		010193ED28C8D58700E1C4F4 /* signature_key_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signature_key_templates.h; sourceTree = "<group>"; };
+		010193EE28C8D58700E1C4F4 /* exported_symbols.lds */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exported_symbols.lds; sourceTree = "<group>"; };
+		010193EF28C8D58700E1C4F4 /* catalogue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = catalogue.h; sourceTree = "<group>"; };
+		010193F028C8D58700E1C4F4 /* hybrid_decrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybrid_decrypt.h; sourceTree = "<group>"; };
+		010193F128C8D58700E1C4F4 /* mac_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mac_config.h; sourceTree = "<group>"; };
+		010193F228C8D58700E1C4F4 /* mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mac.h; sourceTree = "<group>"; };
+		010193F328C8D58700E1C4F4 /* hybrid_encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hybrid_encrypt.h; sourceTree = "<group>"; };
+		010193F428C8D58700E1C4F4 /* template_rule.bzl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = template_rule.bzl; sourceTree = "<group>"; };
+		010193F528C8D58700E1C4F4 /* output_stream_with_result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output_stream_with_result.h; sourceTree = "<group>"; };
+		010193F628C8D58700E1C4F4 /* registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registry.h; sourceTree = "<group>"; };
+		010193F728C8D58700E1C4F4 /* BUILD.bazel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BUILD.bazel; sourceTree = "<group>"; };
+		010193F828C8D58800E1C4F4 /* aead */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aead; sourceTree = "<group>"; };
+		010193F928C8D58800E1C4F4 /* hybrid */ = {isa = PBXFileReference; lastKnownFileType = folder; path = hybrid; sourceTree = "<group>"; };
+		010193FA28C8D58800E1C4F4 /* jwt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jwt; sourceTree = "<group>"; };
+		010193FB28C8D58800E1C4F4 /* tink_cc_deps_init.bzl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tink_cc_deps_init.bzl; sourceTree = "<group>"; };
+		010193FC28C8D58800E1C4F4 /* deterministic_aead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deterministic_aead.h; sourceTree = "<group>"; };
+		010193FD28C8D58800E1C4F4 /* public_key_sign_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = public_key_sign_factory.h; sourceTree = "<group>"; };
+		010193FE28C8D58800E1C4F4 /* input_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_stream.h; sourceTree = "<group>"; };
+		010193FF28C8D58800E1C4F4 /* aead_key_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aead_key_templates.h; sourceTree = "<group>"; };
+		0101940028C8D58800E1C4F4 /* proto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = proto; sourceTree = "<group>"; };
+		0101940128C8D58800E1C4F4 /* streamingaead */ = {isa = PBXFileReference; lastKnownFileType = folder; path = streamingaead; sourceTree = "<group>"; };
+		0101940228C8D58800E1C4F4 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		0165EFA328C718EB0095A563 /* Tink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0165EFA628C718EB0095A563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0165EFA828C718EB0095A563 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0165EFAA28C718EB0095A563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0165EFAD28C718EB0095A563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0165EFAF28C718ED0095A563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0165EFB228C718ED0095A563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0165EFB428C718ED0095A563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0165EFCF28C723330095A563 /* Tink-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tink-Bridging-Header.h"; sourceTree = "<group>"; };
+		0165EFD028C723330095A563 /* TestWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestWrapper.mm; sourceTree = "<group>"; };
+		0165EFD128C723340095A563 /* TestWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWrapper.h; sourceTree = "<group>"; };
+		0165EFD228C723340095A563 /* TestClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestClass.hpp; sourceTree = "<group>"; };
+		0165EFD328C723340095A563 /* TestClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestClass.cpp; sourceTree = "<group>"; };
+		05A69E6C4B6DF975A82E92CB /* Pods_Tink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243AD7A4A0745361AD3580E3 /* Pods-Tink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tink.debug.xcconfig"; path = "Target Support Files/Pods-Tink/Pods-Tink.debug.xcconfig"; sourceTree = "<group>"; };
+		421FFD845F5347C4D765525F /* Pods-Tink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tink.release.xcconfig"; path = "Target Support Files/Pods-Tink/Pods-Tink.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0165EFA028C718EB0095A563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185A8C17E04C2808B68C2D01 /* Pods_Tink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010193AB28C8D56800E1C4F4 /* tink */ = {
+			isa = PBXGroup;
+			children = (
+				010193F828C8D58800E1C4F4 /* aead */,
+				010193BA28C8D58500E1C4F4 /* aead_config.h */,
+				010193CA28C8D58500E1C4F4 /* aead_factory.h */,
+				010193FF28C8D58800E1C4F4 /* aead_key_templates.h */,
+				010193B828C8D58500E1C4F4 /* aead.h */,
+				010193E328C8D58700E1C4F4 /* binary_keyset_reader.h */,
+				010193B628C8D58500E1C4F4 /* binary_keyset_writer.h */,
+				010193F728C8D58700E1C4F4 /* BUILD.bazel */,
+				010193EF28C8D58700E1C4F4 /* catalogue.h */,
+				010193D728C8D58600E1C4F4 /* chunked_mac.h */,
+				010193CB28C8D58600E1C4F4 /* cleartext_keyset_handle.h */,
+				0101940228C8D58800E1C4F4 /* CMakeLists.txt */,
+				010193D628C8D58600E1C4F4 /* config */,
+				010193B328C8D58500E1C4F4 /* config.h */,
+				010193C428C8D58500E1C4F4 /* core */,
+				010193BF28C8D58500E1C4F4 /* crypto_format.h */,
+				010193C528C8D58500E1C4F4 /* daead */,
+				010193D528C8D58600E1C4F4 /* deterministic_aead_config.h */,
+				010193D228C8D58600E1C4F4 /* deterministic_aead_factory.h */,
+				010193C228C8D58500E1C4F4 /* deterministic_aead_key_templates.h */,
+				010193FC28C8D58800E1C4F4 /* deterministic_aead.h */,
+				010193AD28C8D58400E1C4F4 /* examples */,
+				010193D828C8D58600E1C4F4 /* experimental */,
+				010193EE28C8D58700E1C4F4 /* exported_symbols.lds */,
+				010193F928C8D58800E1C4F4 /* hybrid */,
+				010193E128C8D58700E1C4F4 /* hybrid_config.h */,
+				010193DF28C8D58600E1C4F4 /* hybrid_decrypt_factory.h */,
+				010193F028C8D58700E1C4F4 /* hybrid_decrypt.h */,
+				010193AF28C8D58400E1C4F4 /* hybrid_encrypt_factory.h */,
+				010193F328C8D58700E1C4F4 /* hybrid_encrypt.h */,
+				010193D928C8D58600E1C4F4 /* hybrid_key_templates.h */,
+				010193FE28C8D58800E1C4F4 /* input_stream.h */,
+				010193DA28C8D58600E1C4F4 /* insecure_secret_key_access.h */,
+				010193BE28C8D58500E1C4F4 /* integration */,
+				010193CE28C8D58600E1C4F4 /* internal */,
+				010193D028C8D58600E1C4F4 /* json_keyset_reader.h */,
+				010193B728C8D58500E1C4F4 /* json_keyset_writer.h */,
+				010193FA28C8D58800E1C4F4 /* jwt */,
+				010193D328C8D58600E1C4F4 /* key_access.h */,
+				010193C328C8D58500E1C4F4 /* key_manager.h */,
+				010193B928C8D58500E1C4F4 /* key.h */,
+				010193BC28C8D58500E1C4F4 /* keyset_handle.h */,
+				010193EB28C8D58700E1C4F4 /* keyset_manager.h */,
+				010193C728C8D58500E1C4F4 /* keyset_reader.h */,
+				010193AE28C8D58400E1C4F4 /* keyset_writer.h */,
+				010193E228C8D58700E1C4F4 /* kms_client.h */,
+				010193DD28C8D58600E1C4F4 /* kms_clients.h */,
+				010193D428C8D58600E1C4F4 /* mac */,
+				010193F128C8D58700E1C4F4 /* mac_config.h */,
+				010193EC28C8D58700E1C4F4 /* mac_factory.h */,
+				010193D128C8D58600E1C4F4 /* mac_key_templates.h */,
+				010193F228C8D58700E1C4F4 /* mac.h */,
+				010193BD28C8D58500E1C4F4 /* monitoring */,
+				010193F528C8D58700E1C4F4 /* output_stream_with_result.h */,
+				010193C828C8D58500E1C4F4 /* output_stream.h */,
+				010193CF28C8D58600E1C4F4 /* parameters.h */,
+				010193C128C8D58500E1C4F4 /* prf */,
+				010193DE28C8D58600E1C4F4 /* primitive_set.h */,
+				010193B428C8D58500E1C4F4 /* primitive_wrapper.h */,
+				0101940028C8D58800E1C4F4 /* proto */,
+				010193FD28C8D58800E1C4F4 /* public_key_sign_factory.h */,
+				010193BB28C8D58500E1C4F4 /* public_key_sign.h */,
+				010193DB28C8D58600E1C4F4 /* public_key_verify_factory.h */,
+				010193E828C8D58700E1C4F4 /* public_key_verify.h */,
+				010193CC28C8D58600E1C4F4 /* random_access_stream.h */,
+				010193F628C8D58700E1C4F4 /* registry.h */,
+				010193C028C8D58500E1C4F4 /* secret_key_access_token.h */,
+				010193AC28C8D58400E1C4F4 /* secret_key_access.h */,
+				010193B528C8D58500E1C4F4 /* signature */,
+				010193B028C8D58400E1C4F4 /* signature_config.h */,
+				010193ED28C8D58700E1C4F4 /* signature_key_templates.h */,
+				010193B128C8D58400E1C4F4 /* streaming_aead_config.h */,
+				010193DC28C8D58600E1C4F4 /* streaming_aead_key_templates.h */,
+				010193CD28C8D58600E1C4F4 /* streaming_aead.h */,
+				010193E028C8D58700E1C4F4 /* streaming_mac.h */,
+				0101940128C8D58800E1C4F4 /* streamingaead */,
+				010193E428C8D58700E1C4F4 /* subtle */,
+				010193F428C8D58700E1C4F4 /* template_rule.bzl */,
+				010193B228C8D58400E1C4F4 /* third_party */,
+				010193FB28C8D58800E1C4F4 /* tink_cc_deps_init.bzl */,
+				010193E728C8D58700E1C4F4 /* tink_cc_deps.bzl */,
+				010193C928C8D58500E1C4F4 /* tink_config.h */,
+				010193EA28C8D58700E1C4F4 /* tink_version.bzl */,
+				010193E528C8D58700E1C4F4 /* util */,
+				010193C628C8D58500E1C4F4 /* version_script.lds */,
+				010193E628C8D58700E1C4F4 /* version.h.templ */,
+				010193E928C8D58700E1C4F4 /* WORKSPACE */,
+			);
+			path = tink;
+			sourceTree = "<group>";
+		};
+		0165EF9A28C718EB0095A563 = {
+			isa = PBXGroup;
+			children = (
+				0165EFA528C718EB0095A563 /* Tink */,
+				0165EFA428C718EB0095A563 /* Products */,
+				42438799C4493EB97C4E084D /* Pods */,
+				F570F45A18AE4959936531A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0165EFA428C718EB0095A563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0165EFA328C718EB0095A563 /* Tink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0165EFA528C718EB0095A563 /* Tink */ = {
+			isa = PBXGroup;
+			children = (
+				0165EFD628C7236C0095A563 /* Cpp */,
+				0165EFA628C718EB0095A563 /* AppDelegate.swift */,
+				0165EFA828C718EB0095A563 /* SceneDelegate.swift */,
+				0165EFAA28C718EB0095A563 /* ViewController.swift */,
+				0165EFAC28C718EB0095A563 /* Main.storyboard */,
+				0165EFAF28C718ED0095A563 /* Assets.xcassets */,
+				0165EFB128C718ED0095A563 /* LaunchScreen.storyboard */,
+				0165EFB428C718ED0095A563 /* Info.plist */,
+			);
+			path = Tink;
+			sourceTree = "<group>";
+		};
+		0165EFD628C7236C0095A563 /* Cpp */ = {
+			isa = PBXGroup;
+			children = (
+				010193AB28C8D56800E1C4F4 /* tink */,
+				0165EFD328C723340095A563 /* TestClass.cpp */,
+				0165EFD228C723340095A563 /* TestClass.hpp */,
+				0165EFD128C723340095A563 /* TestWrapper.h */,
+				0165EFD028C723330095A563 /* TestWrapper.mm */,
+				0165EFCF28C723330095A563 /* Tink-Bridging-Header.h */,
+			);
+			path = Cpp;
+			sourceTree = "<group>";
+		};
+		42438799C4493EB97C4E084D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				243AD7A4A0745361AD3580E3 /* Pods-Tink.debug.xcconfig */,
+				421FFD845F5347C4D765525F /* Pods-Tink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F570F45A18AE4959936531A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05A69E6C4B6DF975A82E92CB /* Pods_Tink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0165EFA228C718EB0095A563 /* Tink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0165EFB728C718ED0095A563 /* Build configuration list for PBXNativeTarget "Tink" */;
+			buildPhases = (
+				44A9A0F6782ABB3F6DFD894D /* [CP] Check Pods Manifest.lock */,
+				0165EF9F28C718EB0095A563 /* Sources */,
+				0165EFA028C718EB0095A563 /* Frameworks */,
+				0165EFA128C718EB0095A563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tink;
+			productName = Tink;
+			productReference = 0165EFA328C718EB0095A563 /* Tink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0165EF9B28C718EB0095A563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0165EFA228C718EB0095A563 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 0165EF9E28C718EB0095A563 /* Build configuration list for PBXProject "Tink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0165EF9A28C718EB0095A563;
+			productRefGroup = 0165EFA428C718EB0095A563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0165EFA228C718EB0095A563 /* Tink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0165EFA128C718EB0095A563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0101940A28C8D58800E1C4F4 /* daead in Resources */,
+				0101940828C8D58800E1C4F4 /* prf in Resources */,
+				0101941A28C8D58800E1C4F4 /* hybrid in Resources */,
+				0101941D28C8D58800E1C4F4 /* proto in Resources */,
+				0101941728C8D58800E1C4F4 /* template_rule.bzl in Resources */,
+				0165EFB328C718ED0095A563 /* LaunchScreen.storyboard in Resources */,
+				0101940528C8D58800E1C4F4 /* signature in Resources */,
+				0101941128C8D58800E1C4F4 /* util in Resources */,
+				0101940D28C8D58800E1C4F4 /* mac in Resources */,
+				0101940428C8D58800E1C4F4 /* third_party in Resources */,
+				0101941828C8D58800E1C4F4 /* BUILD.bazel in Resources */,
+				0101941928C8D58800E1C4F4 /* aead in Resources */,
+				0101941F28C8D58800E1C4F4 /* CMakeLists.txt in Resources */,
+				0101941528C8D58800E1C4F4 /* tink_version.bzl in Resources */,
+				0101940B28C8D58800E1C4F4 /* version_script.lds in Resources */,
+				0101940628C8D58800E1C4F4 /* monitoring in Resources */,
+				0101940C28C8D58800E1C4F4 /* internal in Resources */,
+				0101941028C8D58800E1C4F4 /* subtle in Resources */,
+				0101940928C8D58800E1C4F4 /* core in Resources */,
+				0101941C28C8D58800E1C4F4 /* tink_cc_deps_init.bzl in Resources */,
+				0101941428C8D58800E1C4F4 /* WORKSPACE in Resources */,
+				0101941228C8D58800E1C4F4 /* version.h.templ in Resources */,
+				0101940F28C8D58800E1C4F4 /* experimental in Resources */,
+				0101940E28C8D58800E1C4F4 /* config in Resources */,
+				0101941628C8D58800E1C4F4 /* exported_symbols.lds in Resources */,
+				0101941E28C8D58800E1C4F4 /* streamingaead in Resources */,
+				0165EFB028C718ED0095A563 /* Assets.xcassets in Resources */,
+				0101941328C8D58800E1C4F4 /* tink_cc_deps.bzl in Resources */,
+				0101941B28C8D58800E1C4F4 /* jwt in Resources */,
+				0165EFAE28C718EB0095A563 /* Main.storyboard in Resources */,
+				0101940328C8D58800E1C4F4 /* examples in Resources */,
+				0101940728C8D58800E1C4F4 /* integration in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44A9A0F6782ABB3F6DFD894D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0165EF9F28C718EB0095A563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0165EFAB28C718EB0095A563 /* ViewController.swift in Sources */,
+				0165EFA728C718EB0095A563 /* AppDelegate.swift in Sources */,
+				0165EFD528C723340095A563 /* TestClass.cpp in Sources */,
+				0165EFA928C718EB0095A563 /* SceneDelegate.swift in Sources */,
+				0165EFD428C723340095A563 /* TestWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0165EFAC28C718EB0095A563 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0165EFAD28C718EB0095A563 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0165EFB128C718ED0095A563 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0165EFB228C718ED0095A563 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0165EFB528C718ED0095A563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0165EFB628C718ED0095A563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0165EFB828C718ED0095A563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243AD7A4A0745361AD3580E3 /* Pods-Tink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.example.Tink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tink/Cpp/Tink-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0165EFB928C718ED0095A563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421FFD845F5347C4D765525F /* Pods-Tink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = con.example.Tink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tink/Cpp/Tink-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0165EF9E28C718EB0095A563 /* Build configuration list for PBXProject "Tink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0165EFB528C718ED0095A563 /* Debug */,
+				0165EFB628C718ED0095A563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0165EFB728C718ED0095A563 /* Build configuration list for PBXNativeTarget "Tink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0165EFB828C718ED0095A563 /* Debug */,
+				0165EFB928C718ED0095A563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0165EF9B28C718EB0095A563 /* Project object */;
+}
